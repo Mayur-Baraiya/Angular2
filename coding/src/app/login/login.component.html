@@ -1,0 +1,34 @@
+<div class="loginroot">
+  <div class="welcome bg-primary text-center text-light">
+    Welcome
+  </div>
+  <div class="text-center">
+    
+      <div class="alert alert-danger" *ngIf="hide" >
+          Password must contain 1 special character, uppercase character, atleast 8 letters.
+      </div>
+      <div class="fieldsroot">
+          <div class=" formgrp">
+      <div class="inputfield">
+    <input type="text" name="username" 
+     placeholder="Username" 
+     [formControl]="username"
+     required>
+  </div>
+  </div>
+
+  <div class=" formgrp">
+      <div class="inputfield">
+      <input 
+        type="password" 
+        name="password" placeholder="Password" 
+        [formControl]="password" required >    
+    </div></div></div>
+    <div>
+      
+    <button class="btn btn-primary rounded-0 btn-cs" name="Login" (click)="authorize()">Login</button>
+  </div>
+  
+  </div>
+
+</div>

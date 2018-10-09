@@ -1,0 +1,45 @@
+.loginroot {
+    background-color: #eee;
+    
+    
+}
+
+.welcome {
+    height: 50px;
+    font-size: 2em;    
+}
+
+.inputfield {
+    padding: 10px 0;
+}
+
+.btn-cs {
+    min-width:250px;
+}
+.fieldsroot {
+    padding: 50px 50px;
+    
+}
+
+
+
+.formgrp {
+    border: 0;
+    margin: 0;
+}
+input {
+
+    border: 0;
+    outline: 0;
+  background: transparent;
+  border-bottom: 1px solid lightgray;
+  color: black;
+  width:100%;
+
+}
+
+
+
+::placeholder {
+    color: black;
+  }

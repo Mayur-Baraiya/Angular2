@@ -1,0 +1,60 @@
+.welcome {
+    height: 50px;
+    font-size: 2em; 
+}
+
+.icon {
+    color:white;
+    float: left;
+padding-left: 10px;    
+ padding-top: 10px;  
+ cursor: pointer ;   
+}
+
+.itemview {
+    border: 0;
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    padding: 0 0;
+    position: relative;
+    width:100%;
+    text-align:center;
+             
+    
+}
+
+.itemview:hover .itemview2{
+    visibility: visible;
+    cursor: pointer ;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.itemview1 {
+    margin: auto 0;
+    text-align: left;
+    width: 80%;
+
+}
+
+.itemview2 {
+    visibility: hidden;
+background: #dc3545;
+display: block;
+justify-content: center;     
+align-items: center;         
+width: 20%;
+height: 100%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.itemroot {
+    padding: 0 0;
+}
+

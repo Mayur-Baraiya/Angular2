@@ -1,0 +1,21 @@
+<div class="listroot">
+    <div class="welcome bg-primary text-center text-light">
+
+<span (click)="changeview()"> <i class="fa fa-angle-left icon"></i>
+</span>
+      List View
+      </div>
+      <div class="itemroot">
+      <ul *ngFor="let item of items; let i=index;">
+        
+          <div class="itemview">
+            <div class="itemview1">
+           <img src="{{item.image}}" height="28px" width="28px" alt=""> <span> <strong> {{item.item}} </strong> </span>
+           
+          </div>  <div class="itemview2" style='color:white;' (click)="delete(i)" ><i class="fa fa-trash" aria-hidden="true"></i><p>DELETE</p></div>
+          </div>
+        
+          </ul>
+
+        </div>
+</div>
